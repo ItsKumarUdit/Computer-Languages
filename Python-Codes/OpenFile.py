@@ -1,0 +1,6 @@
+f = open("C:\Python\File1.txt","r")
+data = f.read()
+print(data)
+line1 = f.readline()
+print(line1)
+f.close()
